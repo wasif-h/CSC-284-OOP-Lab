@@ -1,11 +1,8 @@
-# CSC-284-OOP-Lab
+### **Experiment 1**  
+**Name:** Student Information Initialization  
 
-
-
-
-### **Experiment 1: Student Information Initialization**  
 **Description:**  
-This experiment demonstrates how to create a class `Student` with attributes `name` and `roll_no`. An object of the class is created, and the attributes are initialized through the constructor.  
+This experiment uses object-oriented programming concepts like classes, objects, constructors, and data encapsulation. The problem demonstrates how to create a `Student` class with attributes `name` and `roll_no`. An object of the class is initialized using an expanded constructor to assign values and display them.  
 
 **C++ Code:**  
 ```cpp
@@ -34,13 +31,15 @@ John 2
 ```  
 
 **Result Analysis:**  
-The program successfully initializes and prints the name "John" and roll number `2` for the student.
+The program successfully initializes and prints the student name as "John" and roll number `2` using the constructor.  
 
 ---
 
-### **Experiment 2: Student Data Management**  
+### **Experiment 2**  
+**Name:** Student Data Management  
+
 **Description:**  
-This experiment uses a class `Student` to store and display the roll number, phone number, and address of two students, "Sam" and "John". Each object stores unique information.  
+This experiment demonstrates the use of multiple objects in a class to manage and store data for individual entities. The `Student` class encapsulates the attributes like `name`, `roll_no`, `address`, and `phone`. Each object is assigned unique data and displays it.  
 
 **C++ Code:**  
 ```cpp
@@ -69,17 +68,19 @@ int main() {
 **Output:**  
 ```
 Sam 1 123 Main St 1234567890  
-John 2 456 Elm St 9876543210
+John 2 456 Elm St 9876543210  
 ```  
 
 **Result Analysis:**  
-The program correctly stores and displays the details of the two students as expected.
+The program correctly stores and displays details for two students using two separate objects of the `Student` class.  
 
 ---
 
-### **Experiment 3: Area and Perimeter of a Triangle**  
+### **Experiment 3**  
+**Name:** Area and Perimeter of a Triangle  
+
 **Description:**  
-A class `Triangle` is used to calculate and display the area and perimeter of a triangle with sides 3, 4, and 5 units using the constructor for initialization and Heron's formula for area calculation.  
+This experiment illustrates the use of classes and constructors to calculate the area and perimeter of a triangle. It involves encapsulation and constructors for initialization. The Heron’s formula is used for the area calculation.  
 
 **C++ Code:**  
 ```cpp
@@ -107,17 +108,19 @@ int main() {
 
 **Output:**  
 ```
-6 12
+6.0 12
 ```  
 
 **Result Analysis:**  
-The program correctly calculates and displays the area (`6.0`) and the perimeter (`12`) of the triangle.
+The program calculates and prints the area as `6.0` and the perimeter as `12` for a triangle with sides 3, 4, and 5.  
 
 ---
 
-### **Experiment 4: Triangle Properties via Parameterized Function**  
+### **Experiment 4**  
+**Name:** Triangle Properties via Parameterized Function  
+
 **Description:**  
-This experiment calculates the area and perimeter of a triangle by passing its side lengths to a function within the `Triangle` class.  
+This experiment showcases the use of parameterized member functions to calculate and display properties of a triangle. Encapsulation is applied by organizing the logic within a class.  
 
 **C++ Code:**  
 ```cpp
@@ -144,17 +147,18 @@ int main() {
 
 **Output:**  
 ```
-6 12
+6.0 12
 ```  
 
 **Result Analysis:**  
-The program accurately computes the area (`6.0`) and perimeter (`12`) of the triangle based on the provided sides.
+The function correctly computes the area and perimeter of the triangle using the parameters passed.  
 
----
 
-### **Experiment 5: Rectangle Area Calculation**  
+### **Experiment 5**  
+**Name:** Rectangle Area Calculation  
+
 **Description:**  
-A class `Rectangle` is used to compute the area of two rectangles with given lengths and breadths. The dimensions are passed as parameters to a function.  
+This experiment uses encapsulation and parameterized functions within a `Rectangle` class to calculate and display the area of rectangles. The dimensions are passed as parameters to a function, and the calculated area is returned.  
 
 **C++ Code:**  
 ```cpp
@@ -183,12 +187,15 @@ int main() {
 ```  
 
 **Result Analysis:**  
-The program calculates the areas (`20` and `40`) of the rectangles and displays the results accurately.
+The program calculates and displays the areas of two rectangles (`20` and `40`) based on their dimensions.  
 
+---
 
-### **Experiment 6: Rectangle Area Using Set and Get Functions**  
+### **Experiment 6**  
+**Name:** Rectangle Area Using Set and Get Functions  
+
 **Description:**  
-This experiment implements a class `Area` with `setDim` and `getArea` functions to set dimensions and calculate the area of a rectangle. The dimensions are inputted by the user.  
+This experiment demonstrates the use of `setDim` and `getArea` functions in a class `Area` to set the dimensions and calculate the area of a rectangle. Concepts of encapsulation and function interaction are applied.  
 
 **C++ Code:**  
 ```cpp
@@ -219,23 +226,21 @@ int main() {
 ```  
 
 **Output:**  
-*(Example Input)*  
+*(Example Input: 5 8)*  
 ```
-5 10
-```  
-*(Example Output)*  
-```
-50
+40
 ```  
 
 **Result Analysis:**  
-The program dynamically sets the dimensions and accurately calculates the area based on user input.
+The program dynamically sets the rectangle dimensions and calculates the area based on user input.  
 
 ---
 
-### **Experiment 7: Rectangle Area Using Parameterized Function**  
+### **Experiment 7**  
+**Name:** Rectangle Area Using Parameterized Function  
+
 **Description:**  
-This experiment uses a class `Area` to calculate the area of a rectangle by taking dimensions directly as parameters in a function and returning the result.  
+This experiment shows the use of a parameterized function in a class `Area` to calculate and return the area of a rectangle. Encapsulation is used for organizing code functionality.  
 
 **C++ Code:**  
 ```cpp
@@ -259,23 +264,21 @@ int main() {
 ```  
 
 **Output:**  
-*(Example Input)*  
+*(Example Input: 4 5)*  
 ```
-6 7
-```  
-*(Example Output)*  
-```
-42
+20
 ```  
 
 **Result Analysis:**  
-The program successfully calculates and returns the area of the rectangle based on the provided inputs.
+The program successfully calculates and displays the area of a rectangle based on the dimensions provided by the user.  
 
 ---
 
-### **Experiment 8: Operations on Complex Numbers**  
+### **Experiment 8**  
+**Name:** Operations on Complex Numbers  
+
 **Description:**  
-A class `Complex` is created to perform addition, subtraction, and multiplication on two complex numbers. The real and imaginary parts are inputted by the user, and the results are displayed.  
+This experiment uses a `Complex` class to perform addition, subtraction, and multiplication of complex numbers. Concepts of encapsulation and object interaction are demonstrated by defining separate member functions for each operation.  
 
 **C++ Code:**  
 ```cpp
@@ -317,25 +320,23 @@ int main() {
 ```  
 
 **Output:**  
-*(Example Input)*  
+*(Example Input: 3 4 1 2)*  
 ```
-2 3 4 5
-```  
-*(Example Output)*  
-```
-6+8i  
--2-2i  
--7+22i
+4+6i  
+2+2i  
+-5+10i
 ```  
 
 **Result Analysis:**  
-The program computes and outputs the sum, difference, and product of the complex numbers accurately, maintaining the correct format.
+The program computes and displays the sum, difference, and product of two complex numbers accurately.  
 
 ---
 
-### **Experiment 9: Box Volume Calculation Using Initialization List**  
+### **Experiment 9**  
+**Name:** Box Volume Calculation Using Initialization List  
+
 **Description:**  
-This experiment demonstrates the use of an initialization list in the `Volume` class to initialize the dimensions of a box and calculate its volume.  
+This experiment introduces initialization lists to initialize member variables in the `Volume` class. It calculates the volume of a box by taking its length, breadth, and height as input.  
 
 **C++ Code:**  
 ```cpp
@@ -363,13 +364,15 @@ int main() {
 ```  
 
 **Result Analysis:**  
-The program correctly initializes the dimensions and computes the volume (`24`) of the box.
+The program correctly initializes the box dimensions and calculates its volume as `24`.  
 
 ---
 
-### **Experiment 10: Employee Information Display**  
+### **Experiment 10**  
+**Name:** Employee Information Display  
+
 **Description:**  
-A class `Employee` is used to store and display details like name, year of joining, salary, and address of three employees.  
+This experiment uses the `Employee` class to encapsulate and display details of employees, such as name, year of joining, salary, and address. Multiple objects are created to represent individual employees.  
 
 **C++ Code:**  
 ```cpp
@@ -403,5 +406,4 @@ John 1999 26B- WallsStreat
 ```  
 
 **Result Analysis:**  
-The program successfully displays the required employee details in a formatted structure as expected.
-
+The program successfully stores and displays the information of three employees in the specified format.  
